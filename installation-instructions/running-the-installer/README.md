@@ -7,7 +7,7 @@ npm i -g @olptools/cli
 olp-cli install <your-access-key>
 ```
 
-It will output a set of URLs, go to the public URL of your server (Normally the last one) in order to continue the process
+It will output a set of URLs, go to the public URL of your server (normally the last one) in order to continue the process.
 
 ```
 [Wed, 07 Dec 2022 21:34:15 GMT] Cloning git@bitbucket.org:CamiloTDex/olp-installation-wizard.git into /usr/local/share/.config/yarn/global/node_modules/@olptools/cli/olp-installation-wizard
