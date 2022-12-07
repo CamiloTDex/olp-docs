@@ -9,4 +9,4 @@
     * [4. Choosing the Documents Folders](installation-instructions/running-the-installer/4.-choosing-the-documents-folder.md)
     * [5. Network Setup](installation-instructions/running-the-installer/5.-network-setup.md)
     * [6. Advanced Settings](installation-instructions/running-the-installer/6.-advanced-settings.md)
-* [Running your node](running-your-node.md)
+* [Running Your OLP Node](running-your-node.md)
