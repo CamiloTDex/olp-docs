@@ -10,7 +10,7 @@ Open Source Protocol for Orchestration of Domestic and Cross Border Logistics Wo
 
 [OLP Architecture]()
 
-[OLP Node]()
+[About OLP Node]()
 
 [Terms of Use]()
 
