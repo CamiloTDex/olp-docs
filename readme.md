@@ -15,7 +15,7 @@ The protocol is designed to be open source, owned and governed by the network pa
 
 ## Documentation
 
-[Overview of the Protocol]()
+[Overview of the Protocol](overview/about.md)
 
 [Draft Governance]()
 
