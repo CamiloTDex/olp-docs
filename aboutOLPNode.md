@@ -1,6 +1,9 @@
 # About OLP Node
 
-An OLP node connects to a private network consisting of other OLP nodes. A node is a peer entity of the OLP network that  provides methods to create, exchange, and use the data that exists in local storage. It also tracks the state of the OLP blockchain. Clients interact with the blockchain via OLP nodes. 
+## What is an OLP Node?
+
+OLP is a distributed network of computers (known as nodes) running software that can verify blocks and transaction data.
+An OLP node connects to a private network consisting of other OLP nodes. A node is a peer entity of the OLP network that  provides methods to create, exchange, and use the data that exists in local storage. It also tracks the state of the OLP blockchain. A node is any instance that is connected to other computers also running OLP nodes, forming a network. Nodes verify data against the protocol rules and keeps the network secure.Clients interact with the blockchain via OLP nodes. 
 
 Each Node comprises several logical components:
 
@@ -30,3 +33,28 @@ Private network system requirements depend on many factors, including:
   Block gas limit.
 
   Number and complexity of JSON-RPC, PubSub, or GraphQL queries handled by the node.
+  
+## Why should my company run a node?
+
+Think of your node as a gateway to the rest of the network that comprises of other nodes. By running nodes, you can directly interact with one or more nodes without one-off integrations, which substantially reduces the cost of integration. If you are a TMS that needs trucks, then you can use your node to request truck availability from nodes run by marketplaces, fleet management systems, trucking companies etc. 
+More nodes there are more decentralized the protocol will be and more secure. 
+By running a node you become part of a global network of logistics from Day 1.
+
+
+## Does my company have to be a freight tech or logistics company to run a node?
+
+No. As long as you have signed an NDA with dexFreight and agreed to the terms of use you can run a node. In that case, your interest should be to help the network scale and make it more secure. 
+
+
+## What does it mean to "run a node"?
+(Source: ethereum.org) 
+
+Nodes download a copy of the OLP blockchain and verifies the validity of every block, then keeps it up-to-date with new blocks and transactions, and helps others download and update their own copies.
+
+OLP is designed to run a node on average consumer-grade computers. You can use any personal computer, but most users opt to run their node on dedicated hardware to eliminate the performance impact on their machine and minimize node downtime.
+
+Running an OLP node may sound complicated at first, but it's merely the act of continuously running client software on a computer while connected to the internet. While offline, your node will simply be inactive until it gets back online and catches up with the latest changes.
+
+## Who can run a node?
+
+At the moment, only companies that have signed an NDA with dexFreight and agreed to the terms of use can run nodes. In the future, any company will be able to do so as long as they abide by the terms of use. 
