@@ -19,6 +19,7 @@
     * [5. Network Setup](installation-instructions/running-the-installer/5.-network-setup.md)
     * [6. Advanced Settings](installation-instructions/running-the-installer/6.-advanced-settings.md)
 * [Running Your OLP Node](running-your-node.md)
+* [OLP Dashboard](olp-dashboard.md)
 * [Connecting OLP Node to Backend](making-requests.md)
 * [Authenticating Users & Admins](authenticating-users-and-admins/README.md)
   * [/auth/generateAdminToken](authenticating-users-and-admins/auth-generateadmintoken.md)
