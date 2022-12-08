@@ -54,3 +54,23 @@ Nodes download a copy of the OLP blockchain and verifies the validity of every b
 OLP is designed to run a node on average consumer-grade computers. You can use any personal computer, but most users opt to run their node on dedicated hardware to eliminate the performance impact on their machine and minimize node downtime.
 
 Running an OLP node may sound complicated at first, but it's merely the act of continuously running client software on a computer while connected to the internet. While offline, your node will simply be inactive until it gets back online and catches up with the latest changes.
+
+## Local or cloud?
+(Source: ethereum.org)
+
+OLP nodes are able to run on consumer grade computers and don't require any special hardware, like mining machines for example. Therefore, you have various options for deploying the node based on your needs. To simplify, let's think about running a node on both a local physical machine and a cloud server:
+
+Cloud:
+  Providers offer high server uptime and static public IP addresses
+  Getting dedicated or virtual server can be more comfortable than building your own
+  Trade off is trusting a third party - server provider
+  Because of the required storage size for full node, the price of a rented server might get high
+
+Own hardware:
+  More trustless and sovereign approach
+  One time investment
+  An option to buy preconfigured machines
+  You have to physically prepare, maintain, and potentially troubleshoot the machine and networking
+
+
+
