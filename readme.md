@@ -32,9 +32,16 @@ IMPORTANT: Available documents are in draft form and are subject to change witho
 
 ## Future Documentation
 
-[Completing the First FTL Shipment]()
+[Glossary of Terms]()
 
 [OLP Node Operator Agreement]()
 
-[Glossary of Terms]()
+[Connecting Node to Your System]()
+
+[Completing the First FULL TRUCKLOAD Shipment]()
+
+[Completing the First DRAYAGE Shipment]()
+
+
+
 
