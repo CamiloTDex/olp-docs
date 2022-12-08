@@ -7,8 +7,10 @@ The Open Logistics Protocol (OLP) enables participants in the logistics industry
 The protocol is an inclusive one, limited only by whether the participants have legal authority to move shipments and perform business transactions in their jurisdictions. The protocol has a global appeal. With localization, it can be adopted anywhere in the world.   
 
 The current scope of this protocol is limited to managing ground freight transportation of full truck load, partial truck load, and drayage shipments moved by the Class 8 trucks. Such heavy trucks cover first mile and mostly mid mile freight transportation in the US and other countries. In the future, the protocol can include other modes (i.e., air, rail, ocean, intermodal) of freight transport. 
-	
-The protocol is designed to be open source, owned, and governed by the network participants. 
+
+As a Web3 protocol, the OLP is designed to leverage network effects while capturing value and distribute it equitably among its users, in a neural, cooperative style network, getting progressively decentralized as it grows. 
+
+The protocol is designed to be open source, owned and governed by the network participants. 
 
 
 ## Documentation
