@@ -8,7 +8,7 @@ Open Source Protocol for Orchestration of Domestic and Cross Border Logistics Wo
 
 [Draft Governance]()
 
-[OLP Architecture]()
+[OLP Architecture](overview/architecture.md)
 
 [About OLP Node](aboutOLPNode.md)
 
