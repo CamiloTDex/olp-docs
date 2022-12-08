@@ -1,6 +1,6 @@
 # /companies/create 🔒
 
-Register a company
+Registers a company.
 
 ```ejs
 throw "Forbidden"

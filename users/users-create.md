@@ -1,6 +1,6 @@
 # /users/create 🔒
 
-Register a company
+Creates a user related to an specific company.
 
 ```ejs
 throw "Forbidden"

@@ -1,5 +1,9 @@
 # Welcome to the Open Logistics Protocol
 
+Copyright (c) 2022 dexFreight Inc. All Rights Reserved
+
+
+
 Open Source Protocol for Orchestration of Domestic and Cross Border Logistics Workflow
 
 The Open Logistics Protocol (OLP) enables participants in the logistics industry to exchange information and value in a peer to peer environment while providing an unalterable and single and global source of truth about the transactions for all parties involved. It allows the participants and their systems to virtually “fuse” or “consolidate” information silos to build innovative services.
@@ -28,7 +32,7 @@ IMPORTANT: Available documents are in draft form and are subject to change witho
 
 [Terms of Use](termsOfUse.md)
 
-[Installing an OLP Node](install\_olp.md)
+[Installing an OLP Node](broken-reference)
 
 ## Future Documentation
 
