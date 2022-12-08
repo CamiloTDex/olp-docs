@@ -12,7 +12,6 @@ For Example, for creating an user you can either use:
 
 ```javascript
 GET - /users/create?username=...&password=...&companyId=...&adminToken=...
-or
 
 POST - /users/create {
     username: ...,
