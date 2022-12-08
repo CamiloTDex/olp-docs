@@ -30,7 +30,7 @@
 * [Managing Users](managing-users/README.md)
   * [/users/create 🔒](managing-users/users-create.md)
 * [Managing a Shipment](managing-a-shipment/README.md)
-  * [Managing an FTL Shipment](managing-a-shipment/managing-an-ftl-shipment/README.md)
+  * [Managing an FTL Shipment](managing-a-shipment/managing-an-ftl-shipment.md)
     * [/shipments/create 👤](managing-a-shipment/managing-an-ftl-shipment/shipments-create.md)
   * [Managing an LTL Shipment](managing-a-shipment/managing-an-ltl-shipment.md)
   * [Managing a Drayage Shipment](managing-a-shipment/managing-a-drayage-shipment.md)

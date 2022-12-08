@@ -2,6 +2,9 @@
 
 Creates an FTL shipment
 
+\
+TODO: Explain Payment Rules & Payment Processors
+
 ```ejs
 throw "Company not found"
 throw "Payment rules not found"
