@@ -32,3 +32,4 @@
   * [Managing an FTL Shipment](managing-a-shipment/managing-an-ftl-shipment.md)
   * [Managing an LTL Shipment](managing-a-shipment/managing-an-ltl-shipment.md)
   * [Managing a Drayage Shipment](managing-a-shipment/managing-a-drayage-shipment.md)
+* [Technical Support](technical-support.md)
