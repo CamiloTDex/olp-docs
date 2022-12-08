@@ -13,7 +13,8 @@ In the future, the protocol can include other modes (i.e., air, rail, ocean, int
 As a Web3 protocol, the OLP is designed to leverage network effects while capturing value and distribute it equitably among its users, in a neural, cooperative style network, getting progressively decentralized as it grows. However, as a humble beginning OLP is a permissioned network of nodes operated by freight tech companies and other logistics firms. Eventually, it will be an open source, owned and governed by the node operators and companies that participate in the network. 
 
 
-## Documentation
+## Available Documentation
+IMPORTANT: Available documents are in draft form and are subject to change without notice.  
 
 [Overview of the Protocol](overview/about.md)
 
@@ -29,7 +30,11 @@ As a Web3 protocol, the OLP is designed to leverage network effects while captur
 
 [Installing an OLP Node](install_olp.md)
 
+## Future Documentation
+
 [Completing the First FTL Shipment]()
 
+[OLP Node Operator Agreement]()
 
+[Glossary of Terms]()
 
