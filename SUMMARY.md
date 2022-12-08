@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to the Open Logistics Protocol](README.md)
+* [Welcome to the OLP](README.md)
 * [OLP Overview](overview/README.md)
   * [About Open Logistics Protocol](overview/about.md)
   * [Draft OLP Governance](overview/governance.md)
