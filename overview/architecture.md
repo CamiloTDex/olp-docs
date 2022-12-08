@@ -1,22 +1,5 @@
 # OLP Architecture
 
-## Core Services Architecture
-
-Core services represent foundational elements that the protocol enables applications and business cases mentioned previously. We deem core services as essential functions, very much like an operating system, for the network participants to operate on. The core services provides the participants a neutral and unbiased playground for the participants to perform businesses via applications built. 
-Please note that the protocol may add more services as it evolves over time. Also, the actual implementation of the services may differ from originally planned. 
-In OLP, core services are nothing but smart contracts deployed in the OLP network. A draft list of core services are described in:
-[Core Services](overview/coreservices.md) 
-
-The image below shows how two OLP nodes run by a broker's TMS interacts with a carriers FMS via their independent nodes and uses core services deployed on the OLP network. 
-
-
-![Figure 4](olp_figure4.jpg)
-
-Other physical components of the network include peer to peer nodes that clients run on top of their existing ERP solution or a separate application provided to the participants by a third party. These nodes exchange information with transacting clients to share pricing, bids, documents, sign contracts, and issue payments. However, these nodes need the support of an underlying blockchain to persistently verify identities (ID verification) of other clients before and during transactions. The ID then ties to the transacting clients on chain reputation because parties may decide to transact only with reputable companies (e.g., carriers whose operating authority have not lapsed). 
- 
-The side chain or Layer 2 is optional however it serves an important interim purpose to “host” several core services related smart contracts such that the nodes receive transaction confirmations much quicker than using public permissionless blockchain such as Ethereum. The side chain is anchored to Ethereum or Bitcoin at predefined intervals using trusted relays. 
-
-
 ## OLP Tech Stack
 
 LAYER 1: ETHEREUM VIRTUAL MACHINE
@@ -45,3 +28,43 @@ While these APIs are not a necessary piece of the stack, they abstract away much
 LEVEL 5: END-USER APPLICATIONS
 
 At the top level of the stack are user-facing applications. These are the standard applications you regularly use and build today: primarily web and mobile apps. The way you develop these user interfaces remains essentially unchanged. Often users will not need to know the application they're using is built using a blockchain.
+
+## Core Services Architecture
+
+Core services represent foundational elements that the protocol enables applications and business cases mentioned previously. We deem core services as essential functions, very much like an operating system, for the network participants to operate on. The core services provides the participants a neutral and unbiased playground for the participants to perform businesses via applications built. 
+Please note that the protocol may add more services as it evolves over time. Also, the actual implementation of the services may differ from originally planned. 
+In OLP, core services are nothing but smart contracts deployed in the OLP network. A draft list of core services are described in:
+[Core Services](overview/coreservices.md) 
+
+
+Other physical components of the network include peer to peer nodes that clients run on top of their existing ERP solution or a separate application provided to the participants by a third party. These nodes exchange information with transacting clients to share pricing, bids, documents, sign contracts, and issue payments. However, these nodes need the support of an underlying blockchain to persistently verify identities (ID verification) of other clients before and during transactions. The ID then ties to the transacting clients on chain reputation because parties may decide to transact only with reputable companies (e.g., carriers whose operating authority have not lapsed). 
+ 
+The side chain or Layer 2 is optional however it serves an important interim purpose to “host” several core services related smart contracts such that the nodes receive transaction confirmations much quicker than using public permissionless blockchain such as Ethereum. The side chain is anchored to Ethereum or Bitcoin at predefined intervals using trusted relays. 
+
+## Example Workflow
+
+The image below shows how two OLP nodes run by a broker's TMS interacts with a carriers FMS via their independent nodes and uses core services deployed on the OLP network. 
+
+![Figure 4](olp_figure4.jpg)
+
+A broker enters FTL shipment information to receive quotes from carriers on its TMS.
+
+The TMS POSTs quote request to its OLP node.
+
+OLP node starts a Lookup of participants for quote requests through the P2P using the master registry.
+
+OLP node broadcast request to all the carrier nodes online and awaits a response.
+
+A carrier's FMS node receives the request.
+
+The carrier's FMS sends the rates via its OLP node to the TMS's OLP Node.
+
+The TMS presents the rates to the broker.
+
+If the broker selects a quote from the carrier, the TMS will send the book request to the carrier's OLP Node with the originator DID. 
+
+In this example, both participants (broker and carrier) uses core services - to verify each other's identity, execute booking. 
+
+
+
+
