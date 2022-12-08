@@ -1,4 +1,4 @@
-# Welcome to Open Logistics Protocol
+# Welcome to the Open Logistics Protocol
 
 Open Source Protocol for Orchestration of Domestic and Cross Border Logistics Workflow
 
