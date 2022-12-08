@@ -2,12 +2,14 @@
 
 ## Core Services Architecture
 
-Core services represent foundational elements that the protocol enables applications and business cases mentioned previously. We deem core services as essential functions, very much like an operating system, for the network participants to operate on. The core services layer provides the participants a neutral and unbiased playground for the participants to perform businesses via applications built. 
-
+Core services represent foundational elements that the protocol enables applications and business cases mentioned previously. We deem core services as essential functions, very much like an operating system, for the network participants to operate on. The core services provides the participants a neutral and unbiased playground for the participants to perform businesses via applications built. 
 Please note that the protocol may add more services as it evolves over time. Also, the actual implementation of the services may differ from originally planned. 
+In OLP, core services are nothing but smart contracts deployed in the OLP network. A draft list of core services are described in:
+(coreservices.md) 
+The image below shows how two OLP nodes run by a broker's TMS interacts with a carriers FMS via their independent nodes and uses core services deployed on the OLP network. 
 
 
-(olp_figure4.jpb)
+![Figure 4](olp_figure4.jpg)
 
 
 Other physical components of the network include peer to peer nodes that participants run on top of their existing ERP solution or a separate application provided to the participants by a third party. These nodes exchange information with transacting parties to share pricing, bids, documents, sign contracts, and issue payments. However, these nodes need the support of an underlying blockchain to persistently verify identities (ID verification) of other parties before and during transactions. The ID then ties to the transacting parties on chain reputation because parties may decide to transact only with reputable companies (e.g., carriers whose operating authority have not lapsed). 
