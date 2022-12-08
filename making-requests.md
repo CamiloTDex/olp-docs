@@ -1,6 +1,6 @@
-# Making Requests
+# Connecting OLP Node to Backend
 
-The Open Logistics Node listens for HTTP requests at port :9560 by default, this requests can be done either as GET requests with named query params or a POST request with JSON body
+The Open Logistics Node listens for HTTP requests at port :9560 by default, this requests can be done either as GET requests with named query params or a POST request with JSON body.
 
 
 
