@@ -12,6 +12,6 @@ Open Source Protocol for Orchestration of Domestic and Cross Border Logistics Wo
 
 [About OLP Node]()
 
-[Terms of Use]()
+[Terms of Use](termsOfUse.md)
 
 [Installing an OLP Node]()
