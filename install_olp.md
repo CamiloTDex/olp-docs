@@ -1,4 +1,4 @@
-# Table of contents
+# Table of Contents
 
 * [Instructions to Install OLP Node](README.md)
   * [Prerequisites](installation-instructions/prerequisites.md)
