@@ -22,7 +22,6 @@
 * [OLP Dashboard](olp-dashboard.md)
 * [Connecting OLP Node to Backend](making-requests.md)
 * [Authenticating Users & Admins](authenticating-users-and-admins/README.md)
-  * [Page 1](authenticating-users-and-admins/page-1.md)
   * [/auth/generateAdminToken](authenticating-users-and-admins/auth-generateadmintoken.md)
   * [/auth/login](authenticating-users-and-admins/auth-login.md)
 * [Managing Companies](managing-companies/README.md)
