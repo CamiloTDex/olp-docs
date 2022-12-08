@@ -25,7 +25,7 @@
 ## Authentication
 
 * [Making Requests](authentication/making-requests.md)
-* [/auth/adminLogin](authentication/auth-adminlogin.md)
+* [/auth/generateAdminToken](authentication/auth-generateadmintoken.md)
 * [/auth/login](authentication/auth-login.md)
 
 ## Companies
