@@ -7,8 +7,8 @@ Core services represent foundational elements that the protocol enables applicat
 Please note that the protocol may add more services as it evolves over time. Also, the actual implementation of the services may differ from originally planned. 
 
 
+{Insert Figure 4}
 
-{Insert figure}
 
 Other physical components of the network include peer to peer nodes that participants run on top of their existing ERP solution or a separate application provided to the participants by a third party. These nodes exchange information with transacting parties to share pricing, bids, documents, sign contracts, and issue payments. However, these nodes need the support of an underlying blockchain to persistently verify identities (ID verification) of other parties before and during transactions. The ID then ties to the transacting parties on chain reputation because parties may decide to transact only with reputable companies (e.g., carriers whose operating authority have not lapsed). 
  
@@ -43,5 +43,3 @@ While these APIs are not a necessary piece of the stack, they abstract away much
 LEVEL 5: END-USER APPLICATIONS
 
 At the top level of the stack are user-facing applications. These are the standard applications you regularly use and build today: primarily web and mobile apps. The way you develop these user interfaces remains essentially unchanged. Often users will not need to know the application they're using is built using a blockchain.
-
-
