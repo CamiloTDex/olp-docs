@@ -54,7 +54,3 @@ Nodes download a copy of the OLP blockchain and verifies the validity of every b
 OLP is designed to run a node on average consumer-grade computers. You can use any personal computer, but most users opt to run their node on dedicated hardware to eliminate the performance impact on their machine and minimize node downtime.
 
 Running an OLP node may sound complicated at first, but it's merely the act of continuously running client software on a computer while connected to the internet. While offline, your node will simply be inactive until it gets back online and catches up with the latest changes.
-
-## Who can run a node?
-
-At the moment, only companies that have signed an NDA with dexFreight and agreed to the terms of use can run nodes. In the future, any company will be able to do so as long as they abide by the terms of use. 
