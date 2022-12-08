@@ -21,6 +21,8 @@ The protocol is designed to be open source, owned and governed by the network pa
 
 [OLP Architecture](overview/architecture.md)
 
+[Core Services](overview/coreservices.md)
+
 [About OLP Node](aboutOLPNode.md)
 
 [Terms of Use](termsOfUse.md)
