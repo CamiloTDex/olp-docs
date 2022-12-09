@@ -1,18 +1,17 @@
-# /negotiations/create 👤
+# /negotiations/counteroffer 👤
 
-Create a negotiation for an ftl shipment
+Counteroffers a negotiation for an ftl shipment
 
 ```ejs
 throw "Shipment not found"
 throw "Shipment unavailable"
 throw "Invalid value"
-throw "You are already in a negotiation"
+throw "You are not in a negotiation"
 throw "Shipment service type is not ftl"
 
-/negotiations/create {
+/negotiations/counteroffer {
     shipmentId: string,
     value: number,
     token: string
 }
 ```
-

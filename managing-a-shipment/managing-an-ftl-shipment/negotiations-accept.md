@@ -1,4 +1,4 @@
-# /negotiations/create 👤
+# /negotiations/accept 👤
 
 Create a negotiation for an ftl shipment
 
@@ -6,13 +6,12 @@ Create a negotiation for an ftl shipment
 throw "Shipment not found"
 throw "Shipment unavailable"
 throw "Invalid value"
-throw "You are already in a negotiation"
+throw "Carrier are not in a negotiation"
 throw "Shipment service type is not ftl"
 
-/negotiations/create {
+/negotiations/accept {
     shipmentId: string,
-    value: number,
+    carrierAddress: string,
     token: string
 }
 ```
-
