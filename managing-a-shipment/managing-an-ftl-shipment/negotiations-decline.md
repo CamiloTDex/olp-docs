@@ -4,8 +4,6 @@ Create a negotiation for an ftl shipment
 
 ```ejs
 throw "Shipment not found"
-throw "Shipment unavailable"
-throw "Invalid value"
 throw "Carrier are not in a negotiation"
 throw "Shipment service type is not ftl"
 
@@ -13,5 +11,5 @@ throw "Shipment service type is not ftl"
     shipmentId: string,
     carrierAddress: string,
     token: string
-}
+} => void
 ```

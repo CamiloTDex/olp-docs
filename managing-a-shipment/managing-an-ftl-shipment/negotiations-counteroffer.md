@@ -13,5 +13,5 @@ throw "Shipment service type is not ftl"
     shipmentId: string,
     value: number,
     token: string
-}
+} => void
 ```
