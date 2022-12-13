@@ -36,7 +36,7 @@ IMPORTANT: Available documents are in draft form and are subject to change witho
 
 ## Future Documentation
 
-[Glossary of Terms](readme-1.md)
+[Definition of Terms](readme-1.md)
 
 [OLP Node Operator Agreement](readme-1.md)
 
