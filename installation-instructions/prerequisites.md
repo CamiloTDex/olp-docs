@@ -9,6 +9,9 @@ We recommend you create a VM with the following attributes: Memory size: Set to 
 * Required Software:
   * Docker and Docker Compose (allows running the OLP node as a service container or virtualized environment)
   * Node.js Version 16 or higher (Javascript runtime environment used for the backend of the OLP node)
+  * (macOS Only) - XCode development tools
+  * Git
+  * unzip command line tool
 * Required Open Ports:
   * 7577 - Installation Wizard Port
   * 9560 - HTTP Port (Configurable in wizard)
