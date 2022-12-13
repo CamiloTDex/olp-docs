@@ -4,7 +4,7 @@ In order to install the node, execute the following commands:
 
 ```
 npm i -g @olptools/cli
-sudo olp-cli install <your-access-key>
+olp-cli install <your-access-key>
 ```
 
 It will output a set of URLs, go to the public URL of your server (typically the last one) in order to continue the process.
