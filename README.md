@@ -14,7 +14,7 @@ The current scope of this protocol is limited to managing ground freight transpo
 
 In the future, the protocol can include other modes (i.e., air, rail, ocean, intermodal) of freight transport.
 
-As a Web3 protocol, the OLP is designed to leverage network effects while capturing value and distribute it equitably among its users, in a neural, cooperative style network, getting progressively decentralized as it grows. However, as a humble beginning OLP is a permissioned network of nodes operated by freight tech companies and other logistics firms. Eventually, it will be an open source, owned and governed by the node operators and companies that participate in the network.
+As a Web3 protocol, the OLP is designed to leverage network effects while capturing value and distribute it equitably among its users, in a neutral, cooperative style network, getting progressively decentralized as it grows. However, as a humble beginning OLP is a permissioned network of nodes operated by freight tech companies and other logistics firms. Eventually, it will be an open source, owned and governed by the node operators and companies that participate in the network.
 
 ## Available Documentation
 
