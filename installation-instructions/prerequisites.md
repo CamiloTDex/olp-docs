@@ -1,5 +1,17 @@
 # Prerequisites
 
+
+
+### Prerequisites for your personal workstation (If you are installing OLP node into a remote/virtual machine)
+
+
+
+To install OLP Node onto a cloud-based Virtual Machine or a remote server, you can use any PC/Mac/Linux or even Android/iOS as long as it has Command Line / Terminal app which allows controlling such Virtual Machine over SSH protocol (or any other way of remotely controlling such Virtual Machine or server where you want OLP node to be hosted)
+
+
+
+### Prerequisites for the machine that will run the node
+
 We recommend you create a VM with the following attributes: Memory size: Set to 6 GB (recommended) Create a virtual hard disk with at least 10 GB (20 GB recommended) Virtual hard disk file type: VDI (if you need to share it with other apps, use VHD) (Optional) You can create a shared directory to copy block files or genesis files from the host computer to the VM
 
 * OS Requirements for the node:
