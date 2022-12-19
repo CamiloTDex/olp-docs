@@ -1,10 +1,25 @@
 # Running the Installer
 
+Before starting installation, ensure that you have at hand your api-key, as we are in beta phase, only the allowed keys will be able to install the node.
+
+#### Installing the node as a service (Linux only) (Recommended)
+
+In order to install the node as a service, execute the following commands:
+
+```
+npm i -g @olptools/cli
+sudo olp-cli install --service <your-api-key>
+```
+
+Installing the node as a service will automatically run, update and restart the node whenever a new version is available.  The process will be started in background and will be available to manage as a regular linux service.
+
+#### Installing the node for running manually
+
 In order to install the node, execute the following commands:
 
 ```
 npm i -g @olptools/cli
-olp-cli install <your-access-key>
+sudo olp-cli install <your-api-key>
 ```
 
 It will output a set of URLs, go to the public URL of your server (typically the last one) in order to continue the process.
