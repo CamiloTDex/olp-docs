@@ -1,8 +1,6 @@
-# Welcome to the Open Logistics Protocol
+# Welcome to the OLP
 
 Copyright (c) 2022 dexFreight Inc. All Rights Reserved
-
-
 
 Open Source Protocol for Orchestration of Domestic and Cross Border Logistics Workflow
 
@@ -20,28 +18,28 @@ As a Web3 protocol, the OLP is designed to leverage network effects while captur
 
 IMPORTANT: Available documents are in draft form and are subject to change without notice.
 
-[Overview of the Protocol](overview/about.md)
+[Overview of the Protocol](overview/overview/about.md)
 
-[Draft Governance](overview/governance.md)
+[Draft Governance](overview/overview/governance.md)
 
-[OLP Architecture](overview/architecture.md)
+[OLP Architecture](overview/overview/architecture.md)
 
-[Core Services](overview/coreservices.md)
+[Core Services](overview/overview/coreservices.md)
 
-[About OLP Node](readme-1.md)
+[About OLP Node](overview/readme-1.md)
 
-[Terms of Use](termsOfUse.md)
+[Terms of Use](overview/termsofuse.md)
 
-[Installing an OLP Node](broken-reference)
+[Installing an OLP Node](broken-reference/)
 
 ## Future Documentation
 
 [Definition of Terms](overview/definitionterms.md)
 
-[OLP Node Operator Agreement](readme-1.md)
+[OLP Node Operator Agreement](overview/readme-1.md)
 
-[Connecting Node to Your System](readme-1.md)
+[Connecting Node to Your System](overview/readme-1.md)
 
-[Completing the First FULL TRUCKLOAD Shipment](readme-1.md)
+[Completing the First FULL TRUCKLOAD Shipment](overview/readme-1.md)
 
-[Completing the First DRAYAGE Shipment](readme-1.md)
+[Completing the First DRAYAGE Shipment](overview/readme-1.md)

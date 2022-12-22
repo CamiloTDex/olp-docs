@@ -33,4 +33,4 @@ It will output a set of URLs, go to the public URL of your server (typically the
 [Wed, 07 Dec 2022 21:34:15 GMT] · http://35.237.53.7:7577
 ```
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
