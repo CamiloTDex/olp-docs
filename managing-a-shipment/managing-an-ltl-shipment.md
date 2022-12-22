@@ -1,2 +1,0 @@
-# Managing an LTL Shipment
-
