@@ -12,4 +12,4 @@ The process of booking an LTL shipment follows the following steps:
    2. When a quote is accepted, the node will send an [accept\_ltl\_quote-webhook.md](../webhooks/accept\_ltl\_quote-webhook.md "mention") webhook to the Buyer Backend.  The backend must response with a full shipment body, similar to [shipments-create.md](managing-an-ftl-shipment/shipments-create.md "mention") as described in [accept\_ltl\_quote-webhook.md](../webhooks/accept\_ltl\_quote-webhook.md "mention")
    3. This shipment will be sent to the seller and after being created on-chain, the buyer will act as carrier and can track the shipment as described at: [managing-shipments](../managing-shipments/ "mention")
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

@@ -5,7 +5,7 @@ Retrieves LTL quotes from the network.
 ```ejs
 throw "Forbbiden"
 
-/ltl/quote {
+/ltl/quoteAllPeers {
     "quote": {
         "origin": {
             "zipCode": string,
@@ -31,19 +31,21 @@ throw "Forbbiden"
 
     "token": string
 } => {
-    success: [{
-        company: {
-            name: string,
+    [nodeId]: {
+        success: [{
+            company: {
+                name: string,
+                id: string,
+                did: string
+            },
+            
+            expirationDate: Date,
             id: string,
-            did: string
-        },
-        
-        expirationDate: Date,
-        id: string,
-        rate: number,
-        transitDays: number,
-        notes: string,
-        hash: string
-    }]
+            rate: number,
+            transitDays: number,
+            notes: string,
+            hash: string
+        }]
+    }
 }
 ```
