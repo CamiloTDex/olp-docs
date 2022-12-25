@@ -1,6 +1,6 @@
 # LTL\_QUOTE
 
-* **Method:** LTL Quote
+* **Method:** LTL\_QUOTE
 * **Trigger:** A quote request is received
 * **Payload:**
 
@@ -36,25 +36,27 @@
 
 ```javascript
 {
-    success: [{
-        company: {
-            name: string,
+    result: {
+        success: [{
+            company: {
+                name: string,
+                id: string,
+                did: string
+            },
+            
+            expirationDate: Date,
             id: string,
-            did: string
-        },
+            rate: number,
+            transitDays: number,
+            notes: string,
+            hash: string
+        }],
         
-        expirationDate: Date,
-        id: string,
-        rate: number,
-        transitDays: number,
-        notes: string,
-        hash: string
-    }],
-    
-    errors: [{
-        error: true;
-        src: string;
-        msg: string;
-    }]
+        errors: [{
+            error: true;
+            src: string;
+            msg: string;
+        }]
+    }
 }
 ```

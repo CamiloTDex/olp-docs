@@ -54,6 +54,18 @@
       * [/shipments/setupDrivers 👤](managing-a-shipment/managing-an-ftl-shipment/shipments-setupdrivers.md)
       * [/shipments/confirmStop 👤](managing-shipments/shipments-setupdrivers-1.md)
   * [Webhooks](webhooks/README.md)
-    * [LTL\_QUOTE](integration-guides/network-interfaces/webhooks/ltl\_quote.md)
-    * [ACCEPT\_LTL\_QUOTE](integration-guides/network-interfaces/webhooks/accept\_ltl\_quote.md)
+    * [LTL\_QUOTE](webhooks/ltl\_quote-webhook.md)
+    * [ACCEPT\_LTL\_QUOTE](webhooks/accept\_ltl\_quote-webhook.md)
 * [Technical Support](technical-support.md)
+
+## Protocol specs
+
+* [Overview](protocol-specs/overview.md)
+* [Decentralized Identifiers](protocol-specs/decentralized-identifiers.md)
+* [Nodes](protocol-specs/nodes.md)
+* [Companies](protocol-specs/companies.md)
+* [Ethereum Contracts](protocol-specs/ethereum-contracts/README.md)
+  * [Registry Contract](protocol-specs/ethereum-contracts/registry-contract.md)
+* [Structs](protocol-specs/structs/README.md)
+  * [P2PRequest](protocol-specs/structs/p2prequest.md)
+  * [P2PResponse](protocol-specs/structs/p2presponse.md)
