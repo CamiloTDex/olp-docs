@@ -2,11 +2,11 @@
 
 ### Overview
 
-Nodes are the main network participants of the open logistics protocol, they are responsible to expose the resources to the network.
+Nodes are the main network participants of the open logistics protocol. They are responsible to expose your resources (e.g., shipments, trucsk) to the network and receive resources.
 
-In order to be considered a node, an application must meet the following requirements.
+In order to be considered a node, an application must meet the following requirements:
 
-* Must have an ethereum private keys, the public address will be their network identity.
+* Must have an Ethereum private keys, the public address will be their network identity
 * Must have a [libp2p](https://libp2p.io/) compatible P2P **multiaddress** and it must be accessible from the network
 * The **libp2p multiaddress** MUST be registered in the [registry-contract.md](ethereum-contracts/registry-contract.md "mention")
 
@@ -14,7 +14,7 @@ In order to be considered a node, an application must meet the following require
 
 The DID of a node is represented in the format did:\<node\_ethereum\_public\_address>
 
-### Connecting to a node
+### Connecting to a Node
 
 All comunications between nodes in the network are done by using [libp2p](https://libp2p.io/) connections.
 
