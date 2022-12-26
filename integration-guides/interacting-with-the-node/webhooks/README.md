@@ -28,7 +28,7 @@ All webhooks follow the following format
 ### Fields
 
 * **Method:** Enum, can be one of the following options
-  * [ltl\_quote-webhook.md](ltl\_quote-webhook.md "mention")
-  * [accept\_ltl\_quote-webhook.md](accept\_ltl\_quote-webhook.md "mention")
+  * [ltl\_quote.md](ltl\_quote.md "mention")
+  * [accept\_ltl\_quote.md](accept\_ltl\_quote.md "mention")
 * **Data:** Specific payload for each request metho
 * **Signature:** Cryptographic signature of the node, it can be used to verify that the node is the one that its making the request
