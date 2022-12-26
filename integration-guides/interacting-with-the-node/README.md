@@ -1,6 +1,6 @@
 # Interacting with the Node
 
-In order to allow the two-directional communications between the node and your backend services, we provide two main interfaces: An HTTP interface for handling incoming requests and webhooks for requesting data and triggering events in the counterparty.
+In order to allow the two-directional communications between a node and your backend services, there are two main interfaces: An HTTP interface for handling incoming requests and webhooks for requesting data and triggering events in the counterparty.
 
 ### Available Interfaces
 
