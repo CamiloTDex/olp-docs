@@ -54,8 +54,16 @@
       * [/shipments/setupDrivers 👤](integration-guides/interacting-with-the-node/making-requests/tracking-shipments/shipments-setupdrivers.md)
       * [/shipments/confirmStop 👤](integration-guides/interacting-with-the-node/making-requests/tracking-shipments/shipments-setupdrivers-1.md)
   * [Webhooks](integration-guides/interacting-with-the-node/webhooks/README.md)
-    * [LTL\_QUOTE](integration-guides/interacting-with-the-node/webhooks/ltl\_quote.md)
-    * [ACCEPT\_LTL\_QUOTE](integration-guides/interacting-with-the-node/webhooks/accept\_ltl\_quote.md)
+    * [Shipment Tracking](integration-guides/interacting-with-the-node/webhooks/shipment-tracking/README.md)
+      * [ShipmentCreated](integration-guides/interacting-with-the-node/webhooks/shipment-tracking/ltl\_quote.md)
+      * [ShipmentAccepted](integration-guides/interacting-with-the-node/webhooks/shipment-tracking/ltl\_quote-1.md)
+      * [ShipmentReadyForPickup](integration-guides/interacting-with-the-node/webhooks/shipment-tracking/ltl\_quote-2.md)
+      * [ShipmentStop](integration-guides/interacting-with-the-node/webhooks/shipment-tracking/ltl\_quote-3.md)
+      * [ShipmentDelivered](integration-guides/interacting-with-the-node/webhooks/shipment-tracking/ltl\_quote-4.md)
+      * [ShipmentPaymentUpdated](integration-guides/interacting-with-the-node/webhooks/shipment-tracking/ltl\_quote-5.md)
+    * [LTL Negotiations](integration-guides/interacting-with-the-node/webhooks/ltl-negotiations/README.md)
+      * [LTL\_QUOTE](integration-guides/interacting-with-the-node/webhooks/ltl-negotiations/ltl\_quote.md)
+      * [ACCEPT\_LTL\_QUOTE](integration-guides/interacting-with-the-node/webhooks/ltl-negotiations/accept\_ltl\_quote.md)
 * [Technical Support](technical-support.md)
 
 ## Protocol specs
