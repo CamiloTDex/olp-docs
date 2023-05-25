@@ -1,6 +1,6 @@
 # /shipments/search 👤
 
-Searching shipments in the open logistics protocol is a process where you query shipment information from other nodes based on an specific filter.
+Searching shipments in the open logistics protocol is a process where you query shipment information from other nodes based on an specific filter
 
 ```ejs
 // Note: All fields are optional
