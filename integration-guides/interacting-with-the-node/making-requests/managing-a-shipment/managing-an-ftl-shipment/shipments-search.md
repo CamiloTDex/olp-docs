@@ -33,7 +33,9 @@ POST /shipment/search {
     
         "weight": { $lt: number, $gt: number }; // Filters weight in lbs
         "equipments": string | { $in: string[] } | { $nin: string[] }; // Filters by specific equipment, or a set of equipments or excluding a set of equipments respectively
-    }
+    },
+    
+    token: string;
 }
 ```
 
