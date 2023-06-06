@@ -31,7 +31,7 @@
 * [Interacting with the Node](integration-guides/interacting-with-the-node/README.md)
   * [Connecting OLP Node via HTTP](integration-guides/interacting-with-the-node/making-requests/README.md)
     * [Authenticating Users & Admins](integration-guides/interacting-with-the-node/making-requests/authenticating-users-and-admins/README.md)
-      * [/auth/generateAdminToken](integration-guides/interacting-with-the-node/making-requests/authenticating-users-and-admins/auth-generateadmintoken.md)
+      * [/auth/getAdminToken](integration-guides/interacting-with-the-node/making-requests/authenticating-users-and-admins/auth-generateadmintoken.md)
       * [/auth/login](integration-guides/interacting-with-the-node/making-requests/authenticating-users-and-admins/auth-login.md)
     * [Managing Companies](integration-guides/interacting-with-the-node/making-requests/managing-companies/README.md)
       * [/companies/create 🔒](integration-guides/interacting-with-the-node/making-requests/managing-companies/companies-create.md)
